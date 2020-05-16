@@ -26,4 +26,4 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_branch: master
-          publish_dir: ./public
+          publish_dir: ./build/web
